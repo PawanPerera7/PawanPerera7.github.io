@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'teslaregular';
+    src: url('./fonts/tesla/tesla-webfont.woff2') format('woff2'),
+         url('./fonts/tesla/tesla-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./IMG_4145\ copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0%;
+    margin: 0%;
+    top: 0%;
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(24, 24, 24);
+    align-content: center;
+}
+.navlog{
+    height: 40px;
+    filter: grayscale(0%);
+    padding-left: 10px;
+    text-align: center;
+    padding: 5px;
+}
+li{
+    float: right;
+    align-self: center;
+    align-content: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    position: fixed;
+    align-content: center;
+    top: 10px;
+    width: 100%;
+    z-index: 1;
+}
+li a {
+    font-family: teslaregular;
+    display: block;
+    color:#bc9a2e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    font-family: teslaregular;
+    background-color: #bc9a2e;
+    color: black;
+}
+.active{
+    background-color:#bc9a2e;
+    color: black;
+}
+.mainarea{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.mainlogo{
+    position: relative;
+    width:150px;
+    z-index: 0;
+    padding-left: 45%;
+    padding-top: 5%;
+}
+.mypic{
+    position: absolute;
+    width: 500px;
+    padding-top: -10;
+    z-index: 99;
+    padding-left: 4.7%;
+    padding-right: 0px;
+}
+.logotxt{
+    width: 70%;
+    padding-top: 5%;
+    padding-left: 5%;
+    float: none;
+}
+.belowlogo{
+    color: #bc9a2e;
+    padding-left: 21%;
+    font-family: teslaregular;
+}
+.section1{
+    overflow: hidden;
+}
+.rectleft{
+    float: left;
+
+}
+.rectright{
+    float: left;
+    padding-left: 50%;
+    padding-top: 2%;
+}
+.rectleftcentxt{
+    color: #bc9a2e;
+    position: absolute;
+    padding-top: 0%;
+    padding-left: 10%;
+    font-family:cassandra_personal_useregular;
+    font-size: 77px;
+}
+.rectrighttxt{
+    color: #bc9a2e;
+    font-family:cassandra_personal_useregular;
+    font-size: 20px;
+}
+.snicon{
+    width: 50px;
+    padding-left: 0%;
+    float: none;
+    align-content: center;
+    padding-left: 10px;
+}
+.snicon:hover{
+    filter: grayscale(100%);
+}
+.snic{
+    align-content: center;
+    align-items: center;
+    padding: auto;
+    text-align: center;
+}
+.footerarea{
+    color: gold;
+    border: 3px solid gold;
+    height: 200px;
+    background-color: rgb(24, 24, 24);
+    align-content: center;
+    padding-bottom: 0%;
+}
+.fttxt{
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 1%;
+}
+.abtme{
+    color: #bc9a2e;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: #bc9a2e;
+    font-family: teslaregular;
+}
+*{
+    list-style: none;
+    padding: 0;
+}
+.skills{
+    float: left;
+    padding-left: 5%;
+}
+.skills li{
+}
+.bar{
+    width: 500px;
+    background: #000000;
+    display: block;
+    height: 5px;
+    border: 1px solid #bc9a2e;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #bc9a2e;
+    float: none;
+}
+.bar span{
+    height: 5px;
+    float: left;
+    background: #bc9a2e;
+}
+.ps{
+    width: 90%;
+    animation: ps 10s;
+    animation-iteration-count: infinite;
+}
+.pr{
+    width: 80%;
+    animation: pr 10s;
+    animation-iteration-count: infinite;
+}
+.ai{
+    width: 65%;
+    animation: ai 10s;
+    animation-iteration-count: infinite;
+}
+.ae{
+    width: 65%;
+    animation: ae 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes ps{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes pr{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes ai{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes ae{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
