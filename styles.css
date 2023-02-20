@@ -78,10 +78,7 @@ li a:hover{
 .mypic{
     position: absolute;
     width: 500px;
-    padding-top: -10;
-    z-index: 99;
-    padding-left: 4.7%;
-    padding-right: 0px;
+    right: 0%;
 }
 .logotxt{
     width: 70%;
