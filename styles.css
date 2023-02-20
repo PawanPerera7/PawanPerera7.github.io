@@ -79,6 +79,7 @@ li a:hover{
     position: absolute;
     width: 500px;
     right: 0%;
+    z-index: -1;
 }
 .logotxt{
     width: 70%;
@@ -134,7 +135,7 @@ li a:hover{
 }
 .footerarea{
     color: gold;
-    border: 3px solid gold;
+    width: 100%;
     height: 200px;
     background-color: rgb(24, 24, 24);
     align-content: center;
