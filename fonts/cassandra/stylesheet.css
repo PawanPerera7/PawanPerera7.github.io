@@ -16,3 +16,20 @@
 .rectrighttxt{
     font-family: cassandra_personal_useregular;
 }
+.mpw{
+    font-family: cassandra_personal_useregular;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    font-size: 77px;
+    color: #bc9a2e;
+}
+.fg{
+    font-family: cassandra_personal_useregular;
+    color: #bc9a2e;
+}
+.mysk{
+    font-family: cassandra_personal_useregular;
+    font-size: 77px;
+    color: #bc9a2e;
+}

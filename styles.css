@@ -6,20 +6,17 @@
     font-style: normal;
 }
 section{
-    /*border: #bc9a2e 3px solid;*/
+    border: #bc9a2e 3px solid;
     width: 100%;
     height: 768px;
 }
-.sect3{
-    height: auto;
-}
 
-body{
+/*body{
     background-image: url(./IMG_4145\ copy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
+}*/
 .navbar{
     width: 100%;
     height: 60px;
@@ -244,9 +241,102 @@ h3{
         width: 65%;
     }
 }
+#sect4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#sect3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.rightblocksect3{
+    border: #bc9a2e 3px solid;
+    position: relative;
+    right: 0px;
+    width: 50%;
+    padding-left: 10%;
+    height: fit-content;
+}
+.dmywork{
+    position: relative;
+}
+.mywork{
+    position: absolute;
+    padding-left: 5%;
+}
+.leftblock{
+    border: #bc9a2e 3px solid;
+    width: 50%;
+}
+.rightblock{
+    border: #bc9a2e 3px solid;
+    position: relative;
+    right: 0px;
+    width: 50%;
+}
 .typeslist{
     color: #bc9a2e;
 }
 .typecon{
     display: flex;
+}
+
+
+
+
+/*Cards*/
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.main_types{
+    text-align: center;
+    width: 200px;
+    height: 350px;
+    padding: 20px;
+    padding-top: 0%;
+    float: none;
+    align-items: start;
+}
+.cardimg:hover{
+    filter: grayscale(100%);
+    width: 210px;
+    /*border: 5px solid gold;*/
+    /*border-radius: 30px;*/
+}
+.cardimg{
+    width: 200px;
+    filter: grayscale(0%);
+    /*border-radius: 30px;*/
+}
+h2{
+    color: #bc9a2e;
+}
+.mtitles{
+    color: #bc9a2e;
+}
+.mpara{
+    color: #bc9a2e;
+}
+.mbutton{
+    background-color: gold;
+    border: 0px;
+    color: black;
+    font-weight: 900;
+    border-radius: 10px;
+    width: 120px;
+}
+.mbutton:hover{
+    background-color: black;
+    border: 3px solid gold;
+    color: gold;
+    font-weight: 900;
+    border-radius: 10px;
+
 }
