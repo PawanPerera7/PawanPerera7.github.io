@@ -6,9 +6,12 @@
     font-style: normal;
 }
 section{
-    border: #bc9a2e 3px solid;
+    /*border: #bc9a2e 3px solid;*/
     width: 100%;
     height: 768px;
+}
+.sect3{
+    height: auto;
 }
 
 body{
@@ -96,6 +99,12 @@ li a:hover{
     color: #bc9a2e;
     padding-left: 21%;
     font-family: teslaregular;
+}
+.belowlogo:hover{
+    color: #9d6f08;
+}
+.belowlogo a :hover{
+    color: #9d6f08;
 }
 .section1{
     overflow: hidden;
@@ -234,4 +243,10 @@ h3{
     100%{
         width: 65%;
     }
+}
+.typeslist{
+    color: #bc9a2e;
+}
+.typecon{
+    display: flex;
 }
