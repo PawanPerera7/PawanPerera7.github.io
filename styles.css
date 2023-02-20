@@ -6,17 +6,17 @@
     font-style: normal;
 }
 section{
-    border: #bc9a2e 3px solid;
+    /*border: #bc9a2e 3px solid;*/
     width: 100%;
     height: 768px;
 }
 
-/*body{
+body{
     background-image: url(./IMG_4145\ copy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}*/
+}
 .navbar{
     width: 100%;
     height: 60px;
@@ -164,14 +164,13 @@ li a:hover{
 h3{
     color: #bc9a2e;
     font-family: teslaregular;
+    padding-left: 0%;
 }
 *{
     list-style: none;
-    padding: 0;
 }
 .skills{
     float: left;
-    padding-left: 5%;
 }
 .bar{
     width: 500px;
@@ -241,6 +240,12 @@ h3{
         width: 65%;
     }
 }
+.leftbars{
+    width: 50%;
+}
+#sect2{
+    height: fit-content;
+}
 #sect4{
     display: flex;
     flex-direction: row;
@@ -250,14 +255,16 @@ h3{
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: fit-content;
 }
 .rightblocksect3{
-    border: #bc9a2e 3px solid;
+    /*border: #bc9a2e 3px solid;*/
     position: relative;
     right: 0px;
     width: 50%;
     padding-left: 10%;
     height: fit-content;
+    float: right;
 }
 .dmywork{
     position: relative;
@@ -267,11 +274,11 @@ h3{
     padding-left: 5%;
 }
 .leftblock{
-    border: #bc9a2e 3px solid;
+    /*border: #bc9a2e 3px solid;*/
     width: 50%;
 }
 .rightblock{
-    border: #bc9a2e 3px solid;
+    /*border: #bc9a2e 3px solid;*/
     position: relative;
     right: 0px;
     width: 50%;
@@ -281,6 +288,9 @@ h3{
 }
 .typecon{
     display: flex;
+}
+#sect5{
+    padding-top: 30px;
 }
 
 
