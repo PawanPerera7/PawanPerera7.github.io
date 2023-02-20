@@ -50,6 +50,8 @@ ul{
     top: 10px;
     width: 100%;
     z-index: 1;
+    display: block;
+    flex-direction: column;
 }
 li a {
     font-family: teslaregular;
