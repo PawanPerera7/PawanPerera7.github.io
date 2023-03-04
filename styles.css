@@ -17,6 +17,8 @@ body{
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
     
 }
 .navbar{
@@ -88,6 +90,7 @@ li a:hover{
     position: absolute;
     width: 500px;
     right: 0%;
+    padding-right: 0%;
     z-index: -1;
 }
 .logotxt{
@@ -164,6 +167,7 @@ li a:hover{
 .abtme{
     color: #bc9a2e;
     font-family: 'Times New Roman', Times, serif;
+    overflow-clip-margin: 5%;
 }
 h3{
     color: #bc9a2e;
