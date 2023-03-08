@@ -1,17 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    text-decoration: none;
+    user-select: none;
+}
+
 @font-face {
     font-family: 'teslaregular';
     src: url('./fonts/tesla/tesla-webfont.woff2') format('woff2'),
-         url('./fonts/tesla/tesla-webfont.woff') format('woff');
+        url('./fonts/tesla/tesla-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-section{
+
+section {
     /*border: #bc9a2e 3px solid;*/
     width: 100%;
     height: 768px;
 }
 
-body{
+body {
     background-image: url(./IMG_4145\ copy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,9 +28,10 @@ body{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    
+
 }
-.navbar{
+
+.navbar {
     width: 100%;
     height: 60px;
     padding: 0%;
@@ -32,23 +42,26 @@ body{
     background-color: rgb(24, 24, 24);
     align-content: center;
 }
-.navlog{
+
+.navlog {
     height: 40px;
     filter: grayscale(0%);
     padding-left: 10px;
     text-align: center;
     padding: 5px;
 }
-li{
+
+li {
     float: right;
     align-self: center;
     align-content: center;
 }
-ul{
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow:hidden;
+    overflow: hidden;
     position: fixed;
     align-content: center;
     top: 10px;
@@ -57,101 +70,120 @@ ul{
     display: block;
     flex-direction: column;
 }
+
 li a {
     font-family: teslaregular;
     display: block;
-    color:#bc9a2e;
+    color: #bc9a2e;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-li a:hover{
+}
+
+li a:hover {
     font-family: teslaregular;
     background-color: #bc9a2e;
     color: black;
 }
-.active{
-    background-color:#bc9a2e;
+
+.active {
+    background-color: #bc9a2e;
     color: black;
 }
-.mainarea{
+
+.mainarea {
     position: relative;
     top: 0;
     left: 0;
 }
-.mainlogo{
+
+.mainlogo {
     position: relative;
-    width:150px;
+    width: 150px;
     z-index: 0;
     padding-left: 45%;
     padding-top: 5%;
 }
-.mypic{
+
+.mypic {
     position: absolute;
     width: 500px;
     right: 0%;
     padding-right: 0%;
     z-index: -1;
 }
-.logotxt{
+
+.logotxt {
     width: 70%;
     padding-top: 5%;
     padding-left: 5%;
     float: none;
 }
-.belowlogo{
+
+.belowlogo {
     color: #bc9a2e;
     padding-left: 21%;
     font-family: teslaregular;
 }
-.belowlogo:hover{
+
+.belowlogo:hover {
     color: #9d6f08;
 }
-.belowlogo a :hover{
+
+.belowlogo a :hover {
     color: #9d6f08;
 }
-.section1{
+
+.section1 {
     overflow: hidden;
 }
-.rectleft{
+
+.rectleft {
     float: left;
 
 }
-.rectright{
+
+.rectright {
     float: left;
     padding-left: 50%;
     padding-top: 2%;
 }
-.rectleftcentxt{
+
+.rectleftcentxt {
     color: #bc9a2e;
     position: absolute;
     padding-top: 0%;
     padding-left: 5%;
-    font-family:cassandra_personal_useregular;
+    font-family: cassandra_personal_useregular;
     font-size: 77px;
 }
-.rectrighttxt{
+
+.rectrighttxt {
     color: #bc9a2e;
-    font-family:cassandra_personal_useregular;
+    font-family: cassandra_personal_useregular;
     font-size: 20px;
 }
-.snicon{
+
+.snicon {
     width: 50px;
     padding-left: 0%;
     float: none;
     align-content: center;
     padding-left: 10px;
 }
-.snicon:hover{
+
+.snicon:hover {
     filter: grayscale(100%);
 }
-.snic{
+
+.snic {
     align-content: center;
     align-items: center;
     padding: auto;
     text-align: center;
 }
-.footerarea{
+
+.footerarea {
     color: gold;
     width: 100%;
     height: 200px;
@@ -159,28 +191,34 @@ li a:hover{
     align-content: center;
     padding-bottom: 0%;
 }
-.fttxt{
+
+.fttxt {
     text-align: center;
     padding-bottom: 0%;
     padding-top: 1%;
 }
-.abtme{
+
+.abtme {
     color: #bc9a2e;
     font-family: 'Times New Roman', Times, serif;
     overflow-clip-margin: 5%;
 }
-h3{
+
+h3 {
     color: #bc9a2e;
     font-family: teslaregular;
     padding-left: 0%;
 }
-*{
+
+* {
     list-style: none;
 }
-.skills{
+
+.skills {
     float: left;
 }
-.bar{
+
+.bar {
     width: 500px;
     background: #000000;
     display: block;
@@ -191,81 +229,107 @@ h3{
     box-shadow: 0 0 10px #bc9a2e;
     float: none;
 }
-.bar span{
+
+.bar span {
     height: 5px;
     float: left;
     background: #bc9a2e;
 }
-.ps{
+
+.ps {
     width: 90%;
     animation: ps 10s;
     animation-iteration-count: infinite;
 }
-.pr{
+
+.pr {
     width: 80%;
     animation: pr 10s;
     animation-iteration-count: infinite;
 }
-.ai{
+
+.ai {
     width: 65%;
     animation: ai 10s;
     animation-iteration-count: infinite;
 }
-.ae{
+
+.ae {
     width: 65%;
     animation: ae 10s;
     animation-iteration-count: infinite;
 }
-@keyframes ps{
-    0%{
+
+@keyframes ps {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 90%;
     }
 }
-@keyframes pr{
-    0%{
+
+@keyframes pr {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 80%;
     }
 }
-@keyframes ai{
-    0%{
+
+@keyframes ai {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 65%;
     }
 }
-@keyframes ae{
-    0%{
+
+@keyframes ae {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 65%;
     }
 }
-.leftbars{
+
+.leftbars {
     width: 50%;
 }
-#sect2{
+
+.leftbars h3 {
+    margin-bottom: 10px;
+}
+
+.leftbars li {
+    margin-bottom: 30px;
+}
+
+#sect2 {
     height: fit-content;
 }
-#sect4{
+
+#sect4 {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-#sect3{
+
+#sect3 {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: fit-content;
 }
-.rightblocksect3{
+
+.rightblocksect3 {
     /*border: #bc9a2e 3px solid;*/
     position: relative;
     right: 0px;
@@ -274,30 +338,37 @@ h3{
     height: fit-content;
     float: right;
 }
-.dmywork{
+
+.dmywork {
     position: relative;
 }
-.mywork{
+
+.mywork {
     position: absolute;
     padding-left: 5%;
 }
-.leftblock{
+
+.leftblock {
     /*border: #bc9a2e 3px solid;*/
     width: 50%;
 }
-.rightblock{
+
+.rightblock {
     /*border: #bc9a2e 3px solid;*/
     position: relative;
     right: 0px;
     width: 50%;
 }
-.typeslist{
+
+.typeslist {
     color: #bc9a2e;
 }
-.typecon{
+
+.typecon {
     display: flex;
 }
-#sect5{
+
+#sect5 {
     padding-top: 30px;
 }
 
@@ -305,7 +376,7 @@ h3{
 
 
 /*Cards*/
-.container{
+.container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
@@ -313,7 +384,7 @@ h3{
     align-content: center;
 }
 
-.main_types{
+.main_types {
     text-align: center;
     width: 200px;
     height: 350px;
@@ -322,27 +393,33 @@ h3{
     float: none;
     align-items: start;
 }
-.cardimg:hover{
+
+.cardimg:hover {
     filter: grayscale(100%);
     width: 210px;
     /*border: 5px solid gold;*/
     /*border-radius: 30px;*/
 }
-.cardimg{
+
+.cardimg {
     width: 200px;
     filter: grayscale(0%);
     /*border-radius: 30px;*/
 }
-h2{
+
+h2 {
     color: #bc9a2e;
 }
-.mtitles{
+
+.mtitles {
     color: #bc9a2e;
 }
-.mpara{
+
+.mpara {
     color: #bc9a2e;
 }
-.mbutton{
+
+.mbutton {
     background-color: gold;
     border: 0px;
     color: black;
@@ -350,7 +427,8 @@ h2{
     border-radius: 10px;
     width: 120px;
 }
-.mbutton:hover{
+
+.mbutton:hover {
     background-color: black;
     border: 3px solid gold;
     color: gold;
