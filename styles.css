@@ -358,3 +358,16 @@ h2{
     border-radius: 10px;
 
 }
+/*Logos Page*/
+#sect5{
+    padding-top: 100px;
+}
+
+a.Selection{
+    border: #9d6f08 3px solid;
+}
+
+.sectbreak{
+    font-size: large;
+    text-align: center;
+}
